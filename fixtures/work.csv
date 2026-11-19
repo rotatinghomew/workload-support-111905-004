@@ -1,0 +1,13 @@
+row_id,case_id,record_type,grid,team,action,minutes,occurred_at,source_case
+w001,c301,case,g01,grid-a,intake,,2026-02-01T09:00:00,
+w002,c301,activity,g01,grid-a,visit,45,2026-02-01T10:00:00,
+w003,c301,activity,g02,grid-b,coordination,30,2026-02-01T14:00:00,
+w004,c301,activity,g02,grid-b,follow-up,20,2026-02-02T09:00:00,
+w005,c302,case,g01,grid-a,intake,,2026-02-01T11:00:00,
+w006,c302,activity,g01,grid-a,answer,10,2026-02-01T11:10:00,
+w007,c303,case,g03,grid-c,intake,,2026-02-02T08:30:00,
+w008,c303,activity,g03,grid-c,visit,60,2026-02-02T11:00:00,
+w009,c303,activity,g03,grid-c,coordination,35,2026-02-02T15:00:00,
+w010,c304,case,g02,grid-b,intake,,2026-02-03T13:00:00,
+w011,c304,activity,g01,grid-a,temporary-support,25,2026-02-03T16:00:00,
+w012,c304,feedback,g02,grid-b,resident-confirmation,,2026-02-04T09:00:00,
