@@ -4,7 +4,7 @@ import unittest
 
 
 FIXTURES = Path(__file__).resolve().parents[1] / "fixtures"
-HEADERS = {'teams': ['id', 'min_staff_min'], 'shifts': ['id', 'worker', 'team', 'day', 'begin', 'end', 'skill'], 'loans': ['id', 'worker', 'source', 'dest', 'day', 'begin', 'end'], 'pledges': ['id', 'shift', 'source', 'dest', 'day', 'begin', 'end', 'status'], 'adjudications': ['id', 'activity_id', 'recorded', 'finding', 'confirmed_team', 'new_end'], 'benchmarks': ['id', 'scene', 'steps_low', 'steps_high', 'prereq'], 'policy': ['min_cases', 'gap_min', 'open_count'], 'cases': ['id', 'assigned_team', 'scene', 'steps', 'prereq', 'opened'], 'activities': ['id', 'case_id', 'visit', 'worker', 'reported_team', 'day', 'begin', 'end'], 'outcomes': ['case_id', 'kind', 'day']}
+HEADERS = {'teams': ['id', 'min_staff_min'], 'shifts': ['id', 'worker', 'team', 'day', 'begin', 'end', 'skill'], 'loans': ['id', 'worker', 'source', 'dest', 'day', 'begin', 'end'], 'pledges': ['id', 'shift', 'source', 'dest', 'day', 'begin', 'end', 'status'], 'adjudications': ['id', 'activity_id', 'recorded', 'finding', 'confirmed_team', 'new_end'], 'benchmarks': ['id', 'scene', 'steps_low', 'steps_high', 'prereq'], 'policy': ['min_cases', 'gap_min', 'open_count'], 'cases': ['id', 'assigned_team', 'scene', 'steps', 'prereq', 'opened'], 'activities': ['id', 'case_id', 'visit', 'worker', 'reported_team', 'day', 'begin', 'end'], 'outcomes': ['case_id', 'kind', 'day'], 'historical_roster': ['id', 'worker', 'team', 'day', 'begin', 'end', 'skills', 'coverage']}
 LINKS = [('activities', 'case_id', 'cases', 'id'), ('outcomes', 'case_id', 'cases', 'id'), ('adjudications', 'activity_id', 'activities', 'id'), ('pledges', 'shift', 'shifts', 'id')]
 
 
