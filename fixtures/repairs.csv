@@ -1,4 +1,9 @@
-repair_id,site,unit,part,method,closed_at
-R1,A,U1,P1,replace_module,08:00
-R2,B,U2,P1,adjust,08:10
-R3,A,U3,P2,replace_module,09:00
+id,door,method,team,closed,part_kept,part_in,part_out
+R1,A1,整机,甲,3,P1,,
+R2,A2,读头校调,乙,4,P2,,
+R3,B1,安装,甲,4,P4,,
+R4,C1,读头校调,乙,4,P7,,
+R5,A1,换读头,甲,9,,P5,P1
+R6,B1,换读头,乙,9,,P1,P4
+R7,B2,安装,乙,7,P6,,
+R8,A3,安装,甲,7,P3,,

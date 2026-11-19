@@ -1,0 +1,7 @@
+id,job,seq,kind,related_door
+Y1,T4,1,ready,A3
+Y2,T1,2,started,A1
+Y3,T1,3,removed,A1
+Y4,T1,4,failed,A1
+Y5,T2,5,requested,A2
+Y6,T3,6,requested,B1

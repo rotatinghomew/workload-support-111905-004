@@ -1,0 +1,9 @@
+id,door,day,incident,kind,signature,candidate
+F1,A1,5,X1,reported,失读,P1;A1;K1
+F2,A1,5,X1,reported,失读,P1;A1;K1
+F3,A2,5,X2,reported,失读,P2;A2;K1
+F4,B1,10,X3,reported,失读,P1;P4;B1
+F5,B1,12,,gap,失读,
+F6,A1,7,,gap,失读,
+F7,B2,9,X4,reported,无法合闸,B2
+F8,A3,10,X5,reported,失读,A3;P3

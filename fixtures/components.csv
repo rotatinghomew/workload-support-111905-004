@@ -1,4 +1,13 @@
-unit,part,valid_from,valid_to,assembly
-U1,P1,07:00,08:00,G1
-U2,P1,08:10,,G2
-U3,P2,09:00,,G3
+id,place,part,batch,from_day,until_day,received_day,supersedes
+C01,A1,P1,L1,1,9,1,
+C02,A1,P5,L2,9,,9,
+C03,A2,P2,L1,1,,1,
+C04,A3,P3,L2,1,,1,
+C05,B1,P4,L1,1,9,1,
+C06,B1,P1,L1,9,,9,
+C07,B2,P6,L2,1,,1,
+C08,C1,P7,L1,1,,1,
+C09,C2,P8,L2,1,,1,
+C10,store,P9,L2,1,,1,
+C11,B1,P4,L1,1,,16,C05
+C12,store,P1,L1,9,,16,C06

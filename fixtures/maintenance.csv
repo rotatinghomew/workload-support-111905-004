@@ -1,0 +1,7 @@
+id,door,slot,option,worker,part,hypothesis,reserve_door
+T1,A1,16AM,换读头,U1,P9,批次或点位,A3
+T2,A2,16AM,断电测量,U2,,K1,A1
+T3,B1,16AM,交叉试用,U1,P9,批次或点位,B2
+T4,A3,16AM,试通行,U2,,独立备门,
+T5,C1,16PM,换读头,U2,P9,批次或点位,C2
+T6,A2,16PM,断电测量,U2,,K1,A3
