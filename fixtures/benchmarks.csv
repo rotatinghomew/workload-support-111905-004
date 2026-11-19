@@ -1,4 +1,0 @@
-id,scene,steps_low,steps_high,prereq
-B1,现场,1,2,none
-B2,联办,2,4,check
-B3,联办,5,9,check

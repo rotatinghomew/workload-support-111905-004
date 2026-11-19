@@ -1,0 +1,4 @@
+unit,period,open_minutes,uses,route,failure_reports
+U1,W1,400,10,normal,1
+U2,W1,0,0,bypass,0
+U3,W1,350,8,normal,0

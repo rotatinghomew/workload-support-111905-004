@@ -1,5 +1,0 @@
-id,case_id,team,day,begin,end,duration_min,skills,kind
-B01,CX,G2,2026-07-15,10:30,12:00,40,联办|现场,backlog
-B02,CY,G1,2026-07-15,10:30,13:00,45,联办|现场,backlog
-B03,C0126,G3,2026-07-15,10:30,12:00,50,联办|现场,protected
-B04,C0127,G4,2026-07-15,13:00,15:00,40,联办|现场,backlog

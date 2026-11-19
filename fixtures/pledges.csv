@@ -1,4 +1,0 @@
-id,shift,source,dest,day,begin,end,status
-P1,S03,G3,G1,2026-07-15,13:00,14:30,accepted
-P2,S03,G3,G2,2026-07-15,09:00,10:00,worked
-P3,S05,G3,G4,2026-07-15,09:00,10:00,accepted

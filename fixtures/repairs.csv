@@ -1,0 +1,4 @@
+repair_id,site,unit,part,method,closed_at
+R1,A,U1,P1,replace_module,08:00
+R2,B,U2,P1,adjust,08:10
+R3,A,U3,P2,replace_module,09:00

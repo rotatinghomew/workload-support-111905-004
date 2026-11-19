@@ -1,0 +1,4 @@
+unit,part,valid_from,valid_to,assembly
+U1,P1,07:00,08:00,G1
+U2,P1,08:10,,G2
+U3,P2,09:00,,G3
